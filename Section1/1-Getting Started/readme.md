@@ -3,7 +3,7 @@
 ``` javascript
 <script src="https://unpkg.com/vue@3"></script>
 ```
-- init vue framework wit "createApp()" and "mount()" 
+- init vue framework with "createApp()" and "mount()" 
 ``` javascript
 Vue.createApp({}).mount("#app")
 ```
