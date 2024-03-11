@@ -5,7 +5,9 @@
 		<link rel="stylesheet" type="text/css" href="main.css" />
 	</head>
 	<body>
-		<div id="app"></div>
+		<!-- lastName here is a dead data cause it is outside app dom -->
+		{{ lastName }}
+		<div id="app">{{ firstName }}</div>
 
 		<script src="https://unpkg.com/vue@3"></script>
 		<script src="app.js"></script>
